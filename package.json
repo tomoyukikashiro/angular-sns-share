@@ -4,7 +4,7 @@
   "description": "share to sns without platform sdk.",
   "main": "index.js",
   "scripts": {
-    "test": "karma start karma.conf.js --single-run",
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run",
     "build": "./node_modules/uglifyjs/bin/uglifyjs app/scripts/sns-share.js -o dist/sns-share.min.js --comments;cat dist/sns-share.min.js"
   },
   "repository": {
