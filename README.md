@@ -1,6 +1,7 @@
 
 # Angular Sns Share
 
+You can share to facebook and Twitter without platform sdk.
 
 ## Demo
 
