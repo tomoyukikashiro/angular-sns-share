@@ -1,0 +1,36 @@
+{
+  "name": "angular-sns-share",
+  "version": "1.0.0",
+  "description": "share to sns without platform sdk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run",
+    "build": "./node_modules/uglifyjs/bin/uglifyjs app/scripts/sns-share.js -o dist/sns-share.min.js --comments;cat dist/sns-share.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashiro/angular-sns-share"
+  },
+  "keywords": [
+    "angular",
+    "share",
+    "facebook",
+    "twitter"
+  ],
+  "author": "Tomoyuki Kashiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kashiro/angular-sns-share/issues"
+  },
+  "homepage": "https://github.com/kashiro/angular-sns-share",
+  "devDependencies": {
+    "karma": "^0.12.32",
+    "karma-expect": "1.1.0",
+    "karma-jquery": "^0.1.0",
+    "karma-mocha": "0.1.10",
+    "karma-phantomjs-launcher": "0.1.4",
+    "karma-script-launcher": "0.1.0",
+    "karma-sinon": "1.0.4",
+    "uglifyjs": "^2.4.10"
+  }
+}
