@@ -1,7 +1,16 @@
 
 # Angular Sns Share
 
+
+## Demo
+
 http://kashiro.github.io/angular-sns-share/app
+
+## Install
+
+```
+bower install angular-sns-share
+```
 
 ## Facebook
 
