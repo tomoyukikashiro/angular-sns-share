@@ -1,4 +1,6 @@
 
+[![Build Status](https://travis-ci.org/kashiro/angular-sns-share.svg)](https://travis-ci.org/kashiro/angular-sns-share)
+
 # Angular Sns Share
 
 You can share to facebook and Twitter without platform sdk.
