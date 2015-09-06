@@ -15,6 +15,19 @@ http://kashiro.github.io/angular-sns-share/app
 bower install angular-sns-share
 ```
 
+and add `ngSnsShare` to your module.
+
+```js
+(function() {
+  'use strict';
+
+  angular
+    .module('app', [
+        'ngSnsShare'
+    ]);
+})();
+```
+
 ## Facebook
 
 * platform {String}: 'facebook' (fixed)
